@@ -12,11 +12,35 @@ html{
     font-size: 25px;
 }
 
-h1 {
+* {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+header {
     text-align: center;
+}
+
+h1 {
     font-size: 60px;
 }
 
 h2 {
     font-size: 2rem;
+}
+
+#logo {
+    width: 200px;
+}
+    .ment {
+        margin-left: 5%;
+        font-size: 25px;
+    }
+.content {
+    margin-left: 5%;
+    display: flex;
+}
+footer {
+    text-align: center;
+    font-size: 18px;
 }
