@@ -23,7 +23,7 @@ h1{
 }
 
 img{
-    margin-right: 5%;
+    margin-right: 10%;
     max-width: 450px;
     min-width: auto;
 }
@@ -32,6 +32,7 @@ div.top{ /* 이미지와 기본 프로필 내용을 2열로 정렬 */
     display: flex;
     flex-wrap: nowrap;
     justify-content: center; /*중앙정렬*/
+    gap: 8%;
 }
 
 h2{
@@ -40,7 +41,6 @@ h2{
 }
 
 #profile{
-
     font-size: 35px;
     max-width: auto;
     text-align: left;
