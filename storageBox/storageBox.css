@@ -50,5 +50,9 @@ img {
     gap: 10px; /* 이미지 사이 여백*/
     padding: 20px;
     white-space: nowrap; /* 텍스트나 요소들이 줄바꿈 없이 한줄로 유지*/
+}
 
+footer {
+    text-align: center;
+    font-size: 18px;
 }
