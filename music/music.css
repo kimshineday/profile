@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    background-color: black;
+    color: aliceblue;
+    font-family: 'DungGeunMo';
+    font-size: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 2rem;
+}
