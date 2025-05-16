@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+html {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'DungGeunMo';
+
+    font-size: 25px;
+}
+header{
+    text-align: center;
+}
+    h1 { /* STORAGE BOX title*/
+        font-size: 60px;
+    }
+
+h2 { /* 부제목 */
+    text-align: left;
+    font-size: 2rem;
+}
+.titleStory{
+    display: flex;
+    gap: 25px;
+    place-items: center;
+}
+#result{
+    font-size: 1.5rem;
+}
+p {
+    place-items: center;
+}
+
+img {
+    height: 350px; /* 모바일에서 잘 보이게 하려면 width 보다는 heigh 위주 고정이 좋다?*/
+}
+
+#journey {
+    display: flex; /* 자식 요소들이 수평으로 정렬*/
+    overflow-x: auto; /* 화면 너비 이상으로 넘어갈 때 자동으로 스크롤바 생성*/
+    gap: 10px; /* 이미지 사이 여백*/
+    padding: 20px;
+    white-space: nowrap; /* 텍스트나 요소들이 줄바꿈 없이 한줄로 유지*/
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+}
