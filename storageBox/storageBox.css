@@ -36,6 +36,9 @@ h2 { /* 부제목 */
 #result{
     font-size: 1.5rem;
 }
+    #lv{
+        font-size: 1.5rem;
+    }
 p {
     place-items: center;
 }
@@ -51,6 +54,25 @@ img {
     padding: 20px;
     white-space: nowrap; /* 텍스트나 요소들이 줄바꿈 없이 한줄로 유지*/
 }
+
+#music {
+    display: flex;
+    padding: 20px;
+}
+
+.logo {
+    height: 200px;
+}
+
+.linked {
+    display: flex;
+    flex-direction: column; /*세로 방향 정렬*/
+    align-items: center; /*가운데 정렬*/
+    text-align: center; /*텍스트 가운데 정렬*/
+}
+    .linked span {
+        font-size: 15px;
+    }
 
 footer {
     text-align: center;
