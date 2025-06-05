@@ -17,6 +17,12 @@ html {
 
     font-size: 25px;
 }
+
+a {
+  text-decoration: none; /* 밑줄 제거 */
+  color: inherit;        /* 부모 요소의 텍스트 색상 사용 */
+}
+
 header{
     text-align: center;
 }
@@ -78,3 +84,11 @@ footer {
     text-align: center;
     font-size: 18px;
 }
+    #now {
+    margin-bottom: 0;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: center;
+    }
