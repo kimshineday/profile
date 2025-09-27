@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+html {
+    background-color: black;
+    color: aliceblue;
+    font-family: 'DungGeunMo';
+
+    font-size: 25px;
+}
+
+a {
+  text-decoration: none; /* 밑줄 제거 */
+  color: inherit;        /* 부모 요소의 텍스트 색상 사용 */
+}
+
+header{
+    text-align: center;
+}
+    h1 { /* CODING title*/
+        font-size: 60px;
+    }
+
+h2 { /* 부제목 */
+    text-align: left;
+    font-size: 2rem;
+}
+.titleStory{
+    display: flex;
+    gap: 25px;
+    place-items: center;
+}
+#result{
+    font-size: 1.5rem;
+}
+    #lv{
+        font-size: 1.5rem;
+    }
+p {
+    place-items: center;
+}
+
+img {
+    height: 350px; /* 모바일에서 잘 보이게 하려면 width 보다는 heigh 위주 고정이 좋다?*/
+}
+
+.text {
+    font-size: 18px;
+    padding: 0px;
+}
+#backend p {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+
+#logo {
+    height: 150px;
+}
+
+.project {
+    display: flex;
+    padding: 20px;
+}
+
+.linked {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column; /*세로 방향 정렬*/
+    align-items: center; /*가운데 정렬*/
+    text-align: center; /*텍스트 가운데 정렬*/
+}
+    .linked span {
+        font-size: 18px;
+        /* margin-top: 2% */
+    }
+
+footer {
+    text-align: center;
+    font-size: 18px;
+}
+    #now {
+    margin-bottom: 0;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: center;
+    }
